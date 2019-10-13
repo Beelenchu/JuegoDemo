@@ -12,7 +12,7 @@ public class InstanciarMonos : MonoBehaviour
     void Start()
     {
         
-        monos = new GameObject[4];
+        monos = new GameObject[5];
         
             monos[0] = Instantiate(MonoOriginal, new Vector3(-13.46f, 2.94f, 39.01f), Quaternion.identity) as GameObject;
             monos[1] = Instantiate(MonoOriginal, new Vector3(2.57f, 2.94f, 45.72f), Quaternion.identity) as GameObject;

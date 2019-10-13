@@ -105,21 +105,21 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
+    agentRadius: 2
     agentHeight: 2
     agentSlope: 45
-    agentClimb: 0.4
+    agentClimb: 0.5
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.6666667
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: c07e2a08127392b4fa26710ca1342495, type: 2}
 --- !u!1 &21183549
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,7 +136,7 @@ GameObject:
   m_Name: Muro (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &21183550
@@ -227,7 +227,7 @@ GameObject:
   m_Name: Muro (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &21669174
@@ -409,7 +409,7 @@ GameObject:
   m_Name: Muro (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &67156780
@@ -682,7 +682,7 @@ GameObject:
   m_Name: Muro (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &108999259
@@ -773,7 +773,7 @@ GameObject:
   m_Name: Muro (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &137114607
@@ -864,7 +864,7 @@ GameObject:
   m_Name: Muro (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &146455231
@@ -955,7 +955,7 @@ GameObject:
   m_Name: Muro (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &154041427
@@ -1046,7 +1046,7 @@ GameObject:
   m_Name: Muro (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &217521292
@@ -1137,7 +1137,7 @@ GameObject:
   m_Name: Muro (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &226254729
@@ -1290,7 +1290,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &382255166
 GameObject:
@@ -1308,7 +1308,7 @@ GameObject:
   m_Name: Muro (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &382255167
@@ -1399,7 +1399,7 @@ GameObject:
   m_Name: Muro (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &415225752
@@ -1581,7 +1581,7 @@ GameObject:
   m_Name: Muro (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &444282436
@@ -1672,7 +1672,7 @@ GameObject:
   m_Name: Muro (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &484252512
@@ -1763,7 +1763,7 @@ GameObject:
   m_Name: Muro (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &512632204
@@ -1854,7 +1854,7 @@ GameObject:
   m_Name: Muro (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &559217372
@@ -1945,7 +1945,7 @@ GameObject:
   m_Name: Muro (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &579883966
@@ -2036,7 +2036,7 @@ GameObject:
   m_Name: Muro (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &608007476
@@ -2202,6 +2202,51 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651911396}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &688564241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 688564242}
+  - component: {fileID: 688564243}
+  m_Layer: 0
+  m_Name: InstanciarMonsters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &688564242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688564241}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.28, y: 2.94, z: 58.782383}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &688564243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688564241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 452a485d2c2fe2c439a8685dd2304c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonoOriginal: {fileID: 1793583268104889574, guid: eb3f7cc78016c3c429398ec5677c71ee,
+    type: 3}
 --- !u!1 &694515391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2218,7 +2263,7 @@ GameObject:
   m_Name: Muro (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &694515392
@@ -2309,7 +2354,7 @@ GameObject:
   m_Name: Muro (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &714630629
@@ -2400,7 +2445,7 @@ GameObject:
   m_Name: Muro (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &718517259
@@ -2491,7 +2536,7 @@ GameObject:
   m_Name: Muro (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &809264716
@@ -2582,7 +2627,7 @@ GameObject:
   m_Name: Muro (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &827109299
@@ -2673,7 +2718,7 @@ GameObject:
   m_Name: Muro (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &829290624
@@ -2764,7 +2809,7 @@ GameObject:
   m_Name: Muro (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &863060059
@@ -2946,7 +2991,7 @@ GameObject:
   m_Name: Muro (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &883030904
@@ -3037,7 +3082,7 @@ GameObject:
   m_Name: Muro (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &887494833
@@ -3128,7 +3173,7 @@ GameObject:
   m_Name: Muro (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &889635821
@@ -3219,7 +3264,7 @@ GameObject:
   m_Name: Muro (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &915823357
@@ -3310,7 +3355,7 @@ GameObject:
   m_Name: Muro (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &915970346
@@ -3492,7 +3537,7 @@ GameObject:
   m_Name: Muro (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &969520287
@@ -3765,7 +3810,7 @@ GameObject:
   m_Name: Muro (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1029135630
@@ -3856,7 +3901,7 @@ GameObject:
   m_Name: Muro (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1059018113
@@ -4038,7 +4083,7 @@ GameObject:
   m_Name: Muro (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1122112799
@@ -4122,11 +4167,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100036, guid: 19436996be93c5647a90fc4966b36042, type: 3}
       propertyPath: m_Name
-      value: Char_Sania_54_42_4232
+      value: Personaje
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: 19436996be93c5647a90fc4966b36042, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.3
+      value: 4.42
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: 19436996be93c5647a90fc4966b36042, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4134,7 +4179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: 19436996be93c5647a90fc4966b36042, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.5
+      value: 28.845
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: 19436996be93c5647a90fc4966b36042, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4154,7 +4199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: 19436996be93c5647a90fc4966b36042, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: 19436996be93c5647a90fc4966b36042, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4297,7 +4342,7 @@ GameObject:
   m_Name: Muro (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1253457969
@@ -4388,7 +4433,7 @@ GameObject:
   m_Name: Muro (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1332267894
@@ -4570,7 +4615,7 @@ GameObject:
   m_Name: Muro (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1396902622
@@ -4661,7 +4706,7 @@ GameObject:
   m_Name: Muro (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1410344837
@@ -4752,7 +4797,7 @@ GameObject:
   m_Name: Muro (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1416512324
@@ -4843,7 +4888,7 @@ GameObject:
   m_Name: Muro (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1417255271
@@ -4934,7 +4979,7 @@ GameObject:
   m_Name: Muro (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1486705903
@@ -5025,7 +5070,7 @@ GameObject:
   m_Name: Muro (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1527272785
@@ -5298,7 +5343,7 @@ GameObject:
   m_Name: Muro (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1683170770
@@ -5389,7 +5434,7 @@ GameObject:
   m_Name: Muro (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1684995538
@@ -5480,7 +5525,7 @@ GameObject:
   m_Name: Muro (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1694257774
@@ -5571,7 +5616,7 @@ GameObject:
   m_Name: Muro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1695953656
@@ -5582,8 +5627,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695953655}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 1, z: 0}
-  m_LocalScale: {x: 0.01, y: 18.972546, z: 1}
+  m_LocalPosition: {x: 50, y: 2.3487127, z: 140.4}
+  m_LocalScale: {x: 1, y: 8.261785, z: 100}
   m_Children:
   - {fileID: 1964062663}
   - {fileID: 915823357}
@@ -5637,8 +5682,8 @@ Transform:
   - {fileID: 1486705903}
   - {fileID: 217521292}
   - {fileID: 1694257774}
-  m_Father: {fileID: 1983686916}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1695953657
 BoxCollider:
@@ -5649,7 +5694,7 @@ BoxCollider:
   m_GameObject: {fileID: 1695953655}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5749,7 +5794,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 66.99863
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -5797,7 +5842,7 @@ GameObject:
   m_Name: Muro (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1718147626
@@ -5888,7 +5933,7 @@ GameObject:
   m_Name: Muro (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1745654594
@@ -6070,7 +6115,7 @@ GameObject:
   m_Name: Muro (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1785738780
@@ -6157,6 +6202,7 @@ GameObject:
   - component: {fileID: 1789126010}
   - component: {fileID: 1789126009}
   - component: {fileID: 1789126008}
+  - component: {fileID: 1789126011}
   m_Layer: 0
   m_Name: Lava (1)
   m_TagString: Untagged
@@ -6237,6 +6283,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789126006}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1789126011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789126006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10008bbf7d8a5a24bb5569ce9f0b8841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1790251515
 GameObject:
   m_ObjectHideFlags: 0
@@ -6253,7 +6311,7 @@ GameObject:
   m_Name: Muro (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1790251516
@@ -6339,7 +6397,7 @@ GameObject:
   - component: {fileID: 1792264802}
   - component: {fileID: 1792264801}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: InstanciarCapsulas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6371,7 +6429,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1834318934
 GameObject:
@@ -6567,6 +6625,8 @@ GameObject:
   - component: {fileID: 1892294744}
   - component: {fileID: 1892294743}
   - component: {fileID: 1892294742}
+  - component: {fileID: 1892294746}
+  - component: {fileID: 1892294747}
   m_Layer: 0
   m_Name: Lava
   m_TagString: Untagged
@@ -6583,7 +6643,7 @@ MeshCollider:
   m_GameObject: {fileID: 1892294741}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
@@ -6646,8 +6706,33 @@ Transform:
   m_Children:
   - {fileID: 1789126007}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1892294746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892294741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10008bbf7d8a5a24bb5569ce9f0b8841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1892294747
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892294741}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.8777685, y: 0, z: 20.070143}
+  m_Center: {x: -0.3822057, y: 1.110223e-16, z: 3.2240655}
 --- !u!1 &1916247113
 GameObject:
   m_ObjectHideFlags: 0
@@ -6695,7 +6780,7 @@ Transform:
   - {fileID: 1941104970}
   - {fileID: 651911397}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1932895280
 GameObject:
@@ -6713,7 +6798,7 @@ GameObject:
   m_Name: Muro (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1932895281
@@ -7077,7 +7162,7 @@ GameObject:
   m_Name: Muro (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1964062663
@@ -7169,7 +7254,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!4 &1983686916
 Transform:
@@ -7181,10 +7266,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.3487127, z: 140.4}
   m_LocalScale: {x: 100, y: 1, z: 100}
-  m_Children:
-  - {fileID: 1695953656}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1983686917
 BoxCollider:
@@ -7260,7 +7344,7 @@ GameObject:
   m_Name: Muro (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2077473745
@@ -7351,7 +7435,7 @@ GameObject:
   m_Name: Muro (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2083822509
