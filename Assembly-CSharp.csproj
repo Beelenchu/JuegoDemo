@@ -63,7 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Materia\ScrollingUVs_Layers.cs" />
-    <Compile Include="Assets\Script\Ball.cs" />
     <Compile Include="Assets\Scripts\CharController_Motor.cs" />
     <Compile Include="Assets\Scripts\DestruirPersonaje.cs" />
     <Compile Include="Assets\Scripts\InstanciarMonos.cs" />
@@ -71,7 +70,7 @@
     <Compile Include="Assets\Scripts\MonsterController.cs" />
     <Compile Include="Assets\Scripts\MoveCreeper.cs" />
     <Compile Include="Assets\Scripts\MoverPersonaje.cs" />
-    <None Include="Assets\Materia\harshbricks-Unity\About these PBR files.txt" />
+    <None Include="Assets\Materia\Textura Unitty\About these PBR files.txt" />
     <None Include="Assets\Materia\Lava.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/belen/prygit/ProjectoObstaculos/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
