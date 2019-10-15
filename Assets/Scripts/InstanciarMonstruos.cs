@@ -12,7 +12,7 @@ public class InstanciarMonstruos : MonoBehaviour
     void Start()
     {
 
-        monos = new GameObject[8];
+        monos = new GameObject[20];
 
         monos[0] = Instantiate(MonoOriginal, new Vector3(27.64f, 2f, 95.84f), Quaternion.identity) as GameObject;
         monos[1] = Instantiate(MonoOriginal, new Vector3(30.13f, 2f, 93.16f), Quaternion.identity) as GameObject;
@@ -22,18 +22,18 @@ public class InstanciarMonstruos : MonoBehaviour
         monos[5] = Instantiate(MonoOriginal, new Vector3(47.27f, 2f, 117.92f), Quaternion.identity) as GameObject;
         monos[6] = Instantiate(MonoOriginal, new Vector3(37f, 2f, 126.2f), Quaternion.identity) as GameObject;
         monos[7] = Instantiate(MonoOriginal, new Vector3(-4.7f, 2f, 111.94f), Quaternion.identity) as GameObject;
-        monos[7] = Instantiate(MonoOriginal, new Vector3(-20.5f, 2f, 128f), Quaternion.identity) as GameObject;
-        monos[7] = Instantiate(MonoOriginal, new Vector3(-18.7f, 2f, 139.7f), Quaternion.identity) as GameObject;
-        monos[7] = Instantiate(MonoOriginal, new Vector3(7.9f, 2f, 151.2f), Quaternion.identity) as GameObject;
-        monos[7] = Instantiate(MonoOriginal, new Vector3(-3.3f, 2f, 163.4f), Quaternion.identity) as GameObject;
-        monos[7] = Instantiate(MonoOriginal, new Vector3(-3.2f, 2f, 187f), Quaternion.identity) as GameObject;
-        monos[7] = Instantiate(MonoOriginal, new Vector3(20.4f, 2f, 172.9f), Quaternion.identity) as GameObject;
-        monos[7] = Instantiate(MonoOriginal, new Vector3(25.7f, 2f, 149.8f), Quaternion.identity) as GameObject;
-        monos[7] = Instantiate(MonoOriginal, new Vector3(48.1f, 2f, 149.8f), Quaternion.identity) as GameObject;
-        monos[7] = Instantiate(MonoOriginal, new Vector3(30.8f, 2f, 177.2f), Quaternion.identity) as GameObject;
-        monos[7] = Instantiate(MonoOriginal, new Vector3(14.6f, 2f, 140.7f), Quaternion.identity) as GameObject;
-        monos[7] = Instantiate(MonoOriginal, new Vector3(37.7f, 2f, 137f), Quaternion.identity) as GameObject;
-        monos[7] = Instantiate(MonoOriginal, new Vector3(-25.6f, 2f, 176f), Quaternion.identity) as GameObject;
+        monos[8] = Instantiate(MonoOriginal, new Vector3(-20.5f, 2f, 128f), Quaternion.identity) as GameObject;
+        monos[9] = Instantiate(MonoOriginal, new Vector3(-18.7f, 2f, 139.7f), Quaternion.identity) as GameObject;
+        monos[10] = Instantiate(MonoOriginal, new Vector3(7.9f, 2f, 151.2f), Quaternion.identity) as GameObject;
+        monos[11] = Instantiate(MonoOriginal, new Vector3(-3.3f, 2f, 163.4f), Quaternion.identity) as GameObject;
+        monos[12] = Instantiate(MonoOriginal, new Vector3(-3.2f, 2f, 187f), Quaternion.identity) as GameObject;
+        monos[13] = Instantiate(MonoOriginal, new Vector3(20.4f, 2f, 172.9f), Quaternion.identity) as GameObject;
+        monos[14] = Instantiate(MonoOriginal, new Vector3(25.7f, 2f, 149.8f), Quaternion.identity) as GameObject;
+        monos[15] = Instantiate(MonoOriginal, new Vector3(48.1f, 2f, 149.8f), Quaternion.identity) as GameObject;
+        monos[16] = Instantiate(MonoOriginal, new Vector3(30.8f, 2f, 177.2f), Quaternion.identity) as GameObject;
+        monos[17] = Instantiate(MonoOriginal, new Vector3(14.6f, 2f, 140.7f), Quaternion.identity) as GameObject;
+        monos[18] = Instantiate(MonoOriginal, new Vector3(37.7f, 2f, 137f), Quaternion.identity) as GameObject;
+        monos[19] = Instantiate(MonoOriginal, new Vector3(-25.6f, 2f, 176f), Quaternion.identity) as GameObject;
 
     }
 

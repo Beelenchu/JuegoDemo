@@ -63,11 +63,14 @@ public class MoveCreeper : MonoBehaviour
             Debug.Log(" y posIni -> " + posini);
             transform.position = new Vector3(Mathf.PingPong(Time.time * 5f, 7) + posini, transform.position.y, posa);
         }
-        /*
-             Debug.Log( " y posIni -> " + posini);
-             transform.position = new Vector3(Mathf.PingPong(Time.time * velocidad, distancia) + posini, transform.position.y, posa);
+        else
+            if (posini == 11.36f)
+        {
+            Debug.Log(" y posIni -> " + posini);
+            transform.position = new Vector3(Mathf.PingPong(Time.time * 5f, 7) + posini, transform.position.y, posa);
+        }
 
-     */
+        // mover Espadas: altura de levantamiento de espada 2.71Y ORIGEN: 1.93Y
 
     }
 }

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8953899205993241822}
   - component: {fileID: 2875213391061488965}
   - component: {fileID: 3868236887545155838}
+  - component: {fileID: 5009639517723987282}
   m_Layer: 0
   m_Name: Faraon
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 5339573967629315789}
   m_LocalRotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
   m_LocalPosition: {x: -11.89, y: 1.8487127, z: 39.08}
-  m_LocalScale: {x: 0.001789605, y: 0.001800263, z: 0.00169419}
+  m_LocalScale: {x: 0.0022992846, y: 0.002312978, z: 0.0021766953}
   m_Children:
   - {fileID: 5668144084407647930}
   - {fileID: 8517419756020056847}
@@ -60,6 +61,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 0
   distancia: 0
+--- !u!65 &5009639517723987282
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339573967629315789}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 434.1249, y: 426.43076, z: 0}
+  m_Center: {x: 0.99215585, y: 10.1625595, z: 0.5}
 --- !u!1 &6844062803498598112
 GameObject:
   m_ObjectHideFlags: 0

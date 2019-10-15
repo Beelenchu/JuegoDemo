@@ -65,6 +65,7 @@
     <Compile Include="Assets\Materia\ScrollingUVs_Layers.cs" />
     <Compile Include="Assets\Scripts\CharController_Motor.cs" />
     <Compile Include="Assets\Scripts\DestruirPersonaje.cs" />
+    <Compile Include="Assets\Scripts\InstanciarEspadas.cs" />
     <Compile Include="Assets\Scripts\InstanciarMonos.cs" />
     <Compile Include="Assets\Scripts\InstanciarMonstruos.cs" />
     <Compile Include="Assets\Scripts\MonsterController.cs" />
