@@ -12,7 +12,7 @@ public class InstanciarMonos : MonoBehaviour
     void Start()
     {
         
-        monos = new GameObject[6];
+        monos = new GameObject[7];
         
             monos[0] = Instantiate(MonoOriginal, new Vector3(-13.46f, 1.8f, 39.01f), Quaternion.identity) as GameObject;
         monos[0].transform.rotation = new Quaternion(0, 270, 270,0);
@@ -29,9 +29,11 @@ public class InstanciarMonos : MonoBehaviour
         monos[4] = Instantiate(MonoOriginal, new Vector3(13.68f, 1.8f, 18.17f), Quaternion.identity) as GameObject;
         monos[4].transform.rotation = new Quaternion(0, 270, 270, 0);
 
-        monos[5] = Instantiate(MonoOriginal, new Vector3(11.36f, 1.8f, 70.613f), Quaternion.identity) as GameObject;
+        monos[5] = Instantiate(MonoOriginal, new Vector3(12.35f, 1.8f, 70.613f), Quaternion.identity) as GameObject;
         monos[5].transform.rotation = new Quaternion(0, 270, 270, 0);
 
+        monos[6] = Instantiate(MonoOriginal, new Vector3(22.43f, 1.8f, 69.51f), Quaternion.identity) as GameObject;
+        monos[6].transform.rotation = new Quaternion(0, 270, 270, 0);
     }
 
     // Update is called once per frame
