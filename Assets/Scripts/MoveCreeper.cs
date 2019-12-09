@@ -53,13 +53,13 @@ public class MoveCreeper : MonoBehaviour
             if (posini == 12.35f)
         {
             
-            transform.position = new Vector3(Mathf.PingPong(Time.time * 5f, 6) + posini, transform.position.y, posa);
+            transform.position = new Vector3(Mathf.PingPong(Time.time * 3f, 6) + posini, transform.position.y, posa);
         }
         else
             if (posini == 22.43f)
         {
 
-            transform.position = new Vector3(posini, transform.position.y, Mathf.PingPong(Time.time * 5f, 6) + posa);
+            transform.position = new Vector3(posini, transform.position.y, Mathf.PingPong(Time.time * 2f, 6) + posa);
         }
 
         // mover Espadas: altura de levantamiento de espada 2.71Y ORIGEN: 1.93Y

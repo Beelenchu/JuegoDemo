@@ -13,7 +13,7 @@ public class DestruirPersonaje : MonoBehaviour
     // Update is called once per frame
     private void OnCollisionEnter(Collision obj)
     {
-        if (obj.gameObject.name == "Personaje")
+        if (obj.gameObject.name == "Personaje" || obj.gameObject.name == "Pistola")
         {
             Destroy(obj.gameObject);
         }

@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Pistola
+  - Espada
+  - Faraon
+  - PisoLava
+  - Zombie
+  - BolsaOro
   layers:
   - Default
   - TransparentFX

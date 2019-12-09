@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour
         {
             int info = PlayerPrefs.GetInt("dato1");
             Debug.Log("Guarda 22: " + info);
-            scoreText.text = "Oro: " + info + "/" + "3000";
+            //scoreText.text = "Oro: " + info + "/" + "3000";
             
         }
     }
@@ -30,7 +30,7 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void UpdateScore()
     {
-        scoreText.text = "Oro: " + score + "/" + "3000";
+        //scoreText.text = "Oro: " + score + "/" + "3000";
         
         if (score == 3000)
         {

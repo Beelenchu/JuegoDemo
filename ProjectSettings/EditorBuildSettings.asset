@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/InicioGame.unity
+    guid: f9ce86f15a66753449b7aacfce720129
+  - enabled: 1
     path: Assets/Scenes/Obstaculos.unity
     guid: d5c732d320528494192080832deff71d
   - enabled: 1
     path: Assets/Scenes/Laberinto.unity
     guid: cf3625d6020cbf940bfba0517c734050
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 758bcb91e2ef59a4a9fac8844a355ab6
+  - enabled: 1
+    path: Assets/Scenes/Congratulations.unity
+    guid: 2ada1b93f8c8fa849846016ded47f2c7
   m_configObjects: {}
