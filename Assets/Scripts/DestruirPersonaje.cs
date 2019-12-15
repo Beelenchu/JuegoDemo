@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DestruirPersonaje : MonoBehaviour
 {
@@ -15,7 +16,8 @@ public class DestruirPersonaje : MonoBehaviour
     {
         if (obj.gameObject.name == "Personaje" || obj.gameObject.name == "Pistola")
         {
-            Destroy(obj.gameObject);
+            //Destroy(obj.gameObject);
+            SceneManager.LoadScene("GameOver");
         }
     }
 }

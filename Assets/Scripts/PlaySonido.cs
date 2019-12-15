@@ -15,7 +15,7 @@ public class PlaySonido : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             audio.clip = sonidoArma;
             audio.Play();
