@@ -5,12 +5,12 @@ using UnityEngine;
 public class RestarOro : MonoBehaviour
 {
     GameObject[] monosList;
-    private GameController gameController;
+    //private GameController gameController;
     public int scoreValor;
     // Start is called before the first frame update
     void Start()
     {
-        gameController = GameObject.FindWithTag("GameController").GetComponent<GameController>();
+        //gameController = GameObject.FindWithTag("GameController").GetComponent<GameController>();
     }
 
 
@@ -20,7 +20,7 @@ public class RestarOro : MonoBehaviour
         if (cosa.gameObject.name == "bolsarestar")
         {
             Destroy(cosa.gameObject);
-            gameController.AddScore(scoreValor);
+           // gameController.AddScore(scoreValor);
         }
     }
 }

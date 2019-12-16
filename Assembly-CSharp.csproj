@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{707D4849-6853-8374-9555-E66A84F7213F}</ProjectGuid>
+    <ProjectGuid>{060293A7-1F1D-9E83-26EC-C19A39FDC4C7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,7 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameController.cs" />
     <Compile Include="Assets\Materia\Espada\MoverEspadas.cs" />
     <Compile Include="Assets\Materia\ScrollingUVs_Layers.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
@@ -77,13 +76,14 @@
     <Compile Include="Assets\Scripts\ContarOro.cs" />
     <Compile Include="Assets\Scripts\Destruir.cs" />
     <Compile Include="Assets\Scripts\DestruirPersonaje.cs" />
+    <Compile Include="Assets\Scripts\EnemigoMuerto.cs" />
+    <Compile Include="Assets\Scripts\GuardarResumen.cs" />
     <Compile Include="Assets\Scripts\Instanciarbala.cs" />
     <Compile Include="Assets\Scripts\InstanciarMonos.cs" />
     <Compile Include="Assets\Scripts\MatarEnemigo.cs" />
     <Compile Include="Assets\Scripts\MonsterController.cs" />
     <Compile Include="Assets\Scripts\MoveCreeper.cs" />
     <Compile Include="Assets\Scripts\MoverPersonaje.cs" />
-    <Compile Include="Assets\Scripts\ObtenerOro.cs" />
     <Compile Include="Assets\Scripts\PlayMenu.cs" />
     <Compile Include="Assets\Scripts\PlaySonido.cs" />
     <Compile Include="Assets\Scripts\RestarOro.cs" />
@@ -91,51 +91,52 @@
     <Compile Include="Assets\Scripts\ScObs_A_ScLab.cs" />
     <Compile Include="Assets\Scripts\SonidoBoton.cs" />
     <Compile Include="Assets\Scripts\Tiempo.cs" />
+    <Compile Include="Assets\Scripts\VidaEnemigo.cs" />
     <Compile Include="Assets\UnityCapture.cs" />
     <None Include="Assets\Materia\Textura Unitty\About these PBR files.txt" />
     <None Include="Assets\Materia\Lava.shader" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -321,13 +322,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/jaime/OneDrive/Escritorio/PR/JuegoDemoClaudio/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/belen/prygit/git_ultimaEva/JuegoDemo/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -677,7 +678,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{E8FF37B4-D06F-FC4F-68DB-9BB9961BD84C}</Project>
+      <Project>{B39FD393-0FB5-3D6F-FD2A-5BD7374221D8}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

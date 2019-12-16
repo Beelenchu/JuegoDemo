@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -22,8 +23,16 @@ public class MonsterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.destination = player.position;
-        anim.SetFloat("Speed", agent.velocity.magnitude / agent.speed);
+        try
+        {
+            agent.destination = player.position;
+            anim.SetFloat("Speed", agent.velocity.magnitude / agent.speed);
+        }
+        catch (Exception)
+        {
+            Debug.Log("se murio");
+        }
+
     }
 }
   

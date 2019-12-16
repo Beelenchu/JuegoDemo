@@ -10,6 +10,8 @@ TagManager:
   - PisoLava
   - Zombie
   - BolsaOro
+  - Fire
+  - Bala
   layers:
   - Default
   - TransparentFX

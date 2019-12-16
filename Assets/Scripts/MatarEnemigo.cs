@@ -16,7 +16,7 @@ public class MatarEnemigo : MonoBehaviour
 
         if (enemigo.gameObject.name == "Zombie 1")
         {
-            Destroy(enemigo.gameObject);
+            Destroy(this.gameObject);
 
         }
     }

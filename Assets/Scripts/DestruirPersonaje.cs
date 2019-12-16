@@ -2,13 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class DestruirPersonaje : MonoBehaviour
 {
+    
+    
+    //public bool lockCursor = true;
+    int cont = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+   
     }
 
     // Update is called once per frame
@@ -16,8 +21,16 @@ public class DestruirPersonaje : MonoBehaviour
     {
         if (obj.gameObject.name == "Personaje" || obj.gameObject.name == "Pistola")
         {
+            cont++;
+            Debug.Log("cont " + cont);
             //Destroy(obj.gameObject);
-            SceneManager.LoadScene("GameOver");
+            if (cont == 3)
+            {
+                Destroy(obj.gameObject);
+           
+                SceneManager.LoadScene("GameOver");
+            }
+            
         }
     }
 }
