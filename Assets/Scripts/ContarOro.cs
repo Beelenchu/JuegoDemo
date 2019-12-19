@@ -41,9 +41,11 @@ public class ContarOro : MonoBehaviour
         }
     }
 
+
     public void actualizar()
     {
         puntuacion.text = "Oro: " + contador + " pts / 3000 pts";
+
     }
 
     void Guardar(int contador)
@@ -51,9 +53,9 @@ public class ContarOro : MonoBehaviour
         PlayerPrefs.SetInt("dato1", contador);
         Debug.Log("GUarda");
 
-
-        if (PlayerPrefs.HasKey("dato1"))
+            if (PlayerPrefs.HasKey("dato1"))
         {
+
             int info = PlayerPrefs.GetInt("dato1");
             Debug.Log("Guardaddo: " + info);
         }

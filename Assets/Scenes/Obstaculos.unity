@@ -604,8 +604,19 @@ PrefabInstance:
     - target: {fileID: 681681503791871965, guid: 8c8bc8d5cedb70b4ca2b42b3382ea4ea,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 50
+      value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 681681503791871965, guid: 8c8bc8d5cedb70b4ca2b42b3382ea4ea,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Oro: 0 pts / 3000 pts'
+      objectReference: {fileID: 0}
+    - target: {fileID: 681681503791871965, guid: 8c8bc8d5cedb70b4ca2b42b3382ea4ea,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2d6dbbdad3495104cb3e0bb11c2abcac,
+        type: 3}
     - target: {fileID: 681681503791871964, guid: 8c8bc8d5cedb70b4ca2b42b3382ea4ea,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -663,7 +674,7 @@ Transform:
   - {fileID: 1030152771}
   - {fileID: 1580423993}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &194714383 stripped
 Transform:
@@ -688,6 +699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BolsaGold
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391015378699611542, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_TagString
+      value: BolsaOro
       objectReference: {fileID: 0}
     - target: {fileID: 832040205421428320, guid: 6e84aef621b7ce440978291e73fa0cba,
         type: 3}
@@ -759,6 +775,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.014
       objectReference: {fileID: 0}
+    - target: {fileID: 9221266424136498121, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e84aef621b7ce440978291e73fa0cba, type: 3}
 --- !u!1 &310403297
@@ -790,7 +811,7 @@ Transform:
   m_Children:
   - {fileID: 1685594716}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &315476221
 PrefabInstance:
@@ -803,6 +824,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BolsaGold
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391015378699611542, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_TagString
+      value: BolsaOro
       objectReference: {fileID: 0}
     - target: {fileID: 832040205421428320, guid: 6e84aef621b7ce440978291e73fa0cba,
         type: 3}
@@ -873,6 +899,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221266424136498121, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e84aef621b7ce440978291e73fa0cba, type: 3}
@@ -998,6 +1029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10008bbf7d8a5a24bb5569ce9f0b8841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cont: 0
 --- !u!1 &355524752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,7 +1119,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &407626508 stripped
 MonoBehaviour:
@@ -1143,7 +1175,7 @@ Transform:
   - {fileID: 1230653282}
   - {fileID: 1690109079}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &422812657
 GameObject:
@@ -1267,6 +1299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10008bbf7d8a5a24bb5569ce9f0b8841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cont: 0
 --- !u!1001 &427831417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1278,6 +1311,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BolsaGold
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391015378699611542, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_TagString
+      value: BolsaOro
       objectReference: {fileID: 0}
     - target: {fileID: 832040205421428320, guid: 6e84aef621b7ce440978291e73fa0cba,
         type: 3}
@@ -1349,6 +1387,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.014
       objectReference: {fileID: 0}
+    - target: {fileID: 9221266424136498121, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e84aef621b7ce440978291e73fa0cba, type: 3}
 --- !u!1001 &478067000
@@ -1362,6 +1405,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BolsaGold
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391015378699611542, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_TagString
+      value: BolsaOro
       objectReference: {fileID: 0}
     - target: {fileID: 832040205421428320, guid: 6e84aef621b7ce440978291e73fa0cba,
         type: 3}
@@ -1432,6 +1480,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221266424136498121, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e84aef621b7ce440978291e73fa0cba, type: 3}
@@ -1514,7 +1567,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &566407180
 MonoBehaviour:
@@ -1528,6 +1581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10008bbf7d8a5a24bb5569ce9f0b8841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cont: 0
 --- !u!1 &651911396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,12 +1787,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744340927}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 419cdaffbe5f3ea429581092644ccf26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreValor: -250
+--- !u!114 &744340930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744340927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e53122ba8eea8498acf1f8edb88eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntuacion: {fileID: 407626508}
+  objetofence: {fileID: 1511029161}
 --- !u!114 &744340935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1751,6 +1819,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cb0ff49690102047addb9f6ca58c5d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &812523540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 240807238446605835}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 812523541}
+  m_Layer: 0
+  m_Name: GameController (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &812523541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 240807238446605835}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812523540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &827206715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1762,6 +1860,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BolsaGold
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391015378699611542, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_TagString
+      value: BolsaOro
       objectReference: {fileID: 0}
     - target: {fileID: 832040205421428320, guid: 6e84aef621b7ce440978291e73fa0cba,
         type: 3}
@@ -1832,6 +1935,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221266424136498121, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e84aef621b7ce440978291e73fa0cba, type: 3}
@@ -2145,6 +2253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10008bbf7d8a5a24bb5569ce9f0b8841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cont: 0
 --- !u!1 &1080870769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2325,7 +2434,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1109403425
 PrefabInstance:
@@ -2538,6 +2647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10008bbf7d8a5a24bb5569ce9f0b8841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cont: 0
 --- !u!1 &1230653281
 GameObject:
   m_ObjectHideFlags: 0
@@ -2660,6 +2770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10008bbf7d8a5a24bb5569ce9f0b8841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cont: 0
 --- !u!1 &1240527150 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7049882260106739172, guid: 2c768d7c54ea324439ee773d445e4b6b,
@@ -2819,6 +2930,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BolsaGold
       objectReference: {fileID: 0}
+    - target: {fileID: 7391015378699611542, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_TagString
+      value: BolsaOro
+      objectReference: {fileID: 0}
     - target: {fileID: 832040205421428320, guid: 6e84aef621b7ce440978291e73fa0cba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2888,6 +3004,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221266424136498121, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e84aef621b7ce440978291e73fa0cba, type: 3}
@@ -3257,6 +3378,85 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393801714}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1475329585
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5682180264722176441, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_Name
+      value: PistolaObstaculos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682180264722176441, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pistola
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683064328717790122, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.434626
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683064328717790122, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.0874023
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683064328717790122, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 81.04556
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683064328717790122, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683064328717790122, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683064328717790122, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683064328717790122, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683064328717790122, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683064328717790122, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683064328717790122, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683064328717790122, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4466099469201747113, guid: cd18373ba3bad814b92198a57da0b4c5,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cd18373ba3bad814b92198a57da0b4c5, type: 3}
 --- !u!1001 &1480433836
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3485,7 +3685,7 @@ PrefabInstance:
     - target: {fileID: 2440469267639768671, guid: 542c9c036e9f63840b9c7d03d4e0fd97,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2440469267639768671, guid: 542c9c036e9f63840b9c7d03d4e0fd97,
         type: 3}
@@ -3624,6 +3824,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BolsaGold
       objectReference: {fileID: 0}
+    - target: {fileID: 7391015378699611542, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_TagString
+      value: BolsaOro
+      objectReference: {fileID: 0}
     - target: {fileID: 832040205421428320, guid: 6e84aef621b7ce440978291e73fa0cba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3693,6 +3898,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221266424136498121, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e84aef621b7ce440978291e73fa0cba, type: 3}
@@ -3799,6 +4009,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BolsaGold
       objectReference: {fileID: 0}
+    - target: {fileID: 7391015378699611542, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_TagString
+      value: BolsaOro
+      objectReference: {fileID: 0}
     - target: {fileID: 832040205421428320, guid: 6e84aef621b7ce440978291e73fa0cba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3868,6 +4083,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221266424136498121, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e84aef621b7ce440978291e73fa0cba, type: 3}
@@ -4070,7 +4290,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1673851154
 PrefabInstance:
@@ -4083,6 +4303,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BolsaGold
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391015378699611542, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_TagString
+      value: BolsaOro
       objectReference: {fileID: 0}
     - target: {fileID: 832040205421428320, guid: 6e84aef621b7ce440978291e73fa0cba,
         type: 3}
@@ -4153,6 +4378,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221266424136498121, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e84aef621b7ce440978291e73fa0cba, type: 3}
@@ -4368,6 +4598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10008bbf7d8a5a24bb5569ce9f0b8841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cont: 0
 --- !u!1 &1697017218
 GameObject:
   m_ObjectHideFlags: 0
@@ -4490,6 +4721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10008bbf7d8a5a24bb5569ce9f0b8841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cont: 0
 --- !u!1 &1747813327
 GameObject:
   m_ObjectHideFlags: 0
@@ -4593,6 +4825,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BolsaGold
       objectReference: {fileID: 0}
+    - target: {fileID: 7391015378699611542, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_TagString
+      value: BolsaOro
+      objectReference: {fileID: 0}
     - target: {fileID: 832040205421428320, guid: 6e84aef621b7ce440978291e73fa0cba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4662,6 +4899,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221266424136498121, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e84aef621b7ce440978291e73fa0cba, type: 3}
@@ -4948,7 +5190,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1892294741
 GameObject:
@@ -5027,7 +5269,7 @@ Transform:
   m_LocalScale: {x: 15, y: 1, z: 17}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1892294746
 MonoBehaviour:
@@ -5041,6 +5283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10008bbf7d8a5a24bb5569ce9f0b8841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cont: 0
 --- !u!65 &1892294747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5101,7 +5344,7 @@ Transform:
   - {fileID: 85569197}
   - {fileID: 2063459412}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1941104969
 GameObject:
@@ -5283,7 +5526,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1946044495
 GameObject:
@@ -5588,6 +5831,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BolsaGold
       objectReference: {fileID: 0}
+    - target: {fileID: 7391015378699611542, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_TagString
+      value: BolsaOro
+      objectReference: {fileID: 0}
     - target: {fileID: 832040205421428320, guid: 6e84aef621b7ce440978291e73fa0cba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5657,6 +5905,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221266424136498121, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e84aef621b7ce440978291e73fa0cba, type: 3}
@@ -5757,6 +6010,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BolsaGold
       objectReference: {fileID: 0}
+    - target: {fileID: 7391015378699611542, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_TagString
+      value: BolsaOro
+      objectReference: {fileID: 0}
     - target: {fileID: 832040205421428320, guid: 6e84aef621b7ce440978291e73fa0cba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5826,6 +6084,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221266424136498121, guid: 6e84aef621b7ce440978291e73fa0cba,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e84aef621b7ce440978291e73fa0cba, type: 3}
@@ -6066,7 +6329,7 @@ PrefabInstance:
     - target: {fileID: 7049882260618676231, guid: 2c768d7c54ea324439ee773d445e4b6b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7049882260618676231, guid: 2c768d7c54ea324439ee773d445e4b6b,
         type: 3}
@@ -6210,6 +6473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10008bbf7d8a5a24bb5569ce9f0b8841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cont: 0
 --- !u!1001 &8557894233956761571
 PrefabInstance:
   m_ObjectHideFlags: 0
