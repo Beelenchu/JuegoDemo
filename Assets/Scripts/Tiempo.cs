@@ -17,7 +17,7 @@ public class Tiempo : MonoBehaviour
     private float tiempoAMostrarEnSegundos = 0f;
     private float escalaDeTiempoAlPausar, escalaDeTiempoInicial;
     private bool estaPausado = false;
-
+  
     void start()
     {
         escalaDeTiempoInicial = escalaDeTiempo;
