@@ -15,8 +15,6 @@ public class ContarVida : MonoBehaviour
     AudioSource audio;
 
 
-
-
     int ContadorVida;
     public Text puntuacionvida;
     public void Awake()
