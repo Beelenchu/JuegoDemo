@@ -3760,7 +3760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4867f7d9c12f8649a9eb4cfd48f321c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sonidoArma: {fileID: 8300000, guid: be84c78cd01fa6044ab5e4869890ef4d, type: 3}
+  sonidotoquemujer: {fileID: 8300000, guid: 49ae1360fb47ffc4b9d7c1facabb4a79, type: 3}
   puntuacionvida: {fileID: 1537632687}
 --- !u!114 &613443174
 MonoBehaviour:

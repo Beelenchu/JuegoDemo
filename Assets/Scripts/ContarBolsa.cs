@@ -22,12 +22,12 @@ public class ContarBolsa : MonoBehaviour
             puntuacion.text = "Oro: " + info + " pts / 3000 pts";
         }
     }
-
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "BolsaOro")
         {
             Destroy(other.gameObject);
+
             contador += 250;
             actualizar();
 

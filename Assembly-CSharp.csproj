@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Materia\Espada\MoverEspadas.cs" />
     <Compile Include="Assets\Materia\ScrollingUVs_Layers.cs" />
+    <Compile Include="Assets\PlayerDelete.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Assets\Scripts\MoverPersonaje.cs" />
     <Compile Include="Assets\Scripts\PlayMenu.cs" />
     <Compile Include="Assets\Scripts\PlaySonido.cs" />
+    <Compile Include="Assets\Scripts\QuitaPlayerPrefs.cs" />
     <Compile Include="Assets\Scripts\RestarOro.cs" />
     <Compile Include="Assets\Scripts\ScObs_A_ScGameOver.cs" />
     <Compile Include="Assets\Scripts\ScObs_A_ScLab.cs" />

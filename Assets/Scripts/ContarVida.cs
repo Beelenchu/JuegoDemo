@@ -11,7 +11,7 @@ public class ContarVida : MonoBehaviour
 
 
 {
-    public AudioClip sonidoArma;
+    public AudioClip sonidotoquemujer;
     AudioSource audio;
 
 
@@ -30,21 +30,13 @@ public class ContarVida : MonoBehaviour
             puntuacionvida.text = "Vida: ( " + info + " / 3 )";
         }
     }
-
-
-   //  void Start()
-   // {
-       
-    //}
     public void OnCollisionEnter(Collision obj)
     {
         if (obj.gameObject.name == "Zombie 1")
         {
-            //Destroy(obj.gameObject);
             ContadorVida -= 1;
             audio = GetComponent<AudioSource>();
-
-            audio.clip = sonidoArma;
+            audio.clip = sonidotoquemujer;
             audio.Play();
             actualizar();
 
@@ -52,9 +44,7 @@ public class ContarVida : MonoBehaviour
 
             if (ContadorVida <= 0)
             {
-                
                 SceneManager.LoadScene("GameOver");
-              // ContadorVida = 3;
                actualizar();
             }
         }
@@ -62,11 +52,6 @@ public class ContarVida : MonoBehaviour
     public void actualizar()
     {
         puntuacionvida.text = "Vida: ( " + ContadorVida + " / 3 )";
-        //if(UnityEngine.Application.UnloadLevel('1'))
-        //{
-        //    Depuracion.Log("borrado los datos");
-        //    player
-        //}
     }
     void Guardar(int contador)
     {
@@ -74,7 +59,6 @@ public class ContarVida : MonoBehaviour
         Debug.Log("Guarda");
         if (PlayerPrefs.HasKey("dato2"))
         {
-
             int info = PlayerPrefs.GetInt("dato2");
             Debug.Log("Guardado: " + info);
         }
